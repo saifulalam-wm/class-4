@@ -1,7 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------welcome area--------*/
+.welcome-area {
+    display: flex;
+}
+
+.world {
+    width: 50%;
+    padding-left: 100px;
+
+}
+
+.world h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.world h3 {
+    padding-top: 20px;
+}
+
+.world p {
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.world-img {
+    width: 50%;
+}
+
+.world-img img {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.world h1 span {
+    color: goldenrod;
+    padding-top: 50px;
+}
+
+.welcome-area {
+    background-image: url(/Image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.world a {
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
